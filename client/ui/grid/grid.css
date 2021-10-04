@@ -1,0 +1,13 @@
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: calc(var(--base-spacing) * 2);
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 769px) {
+  .wrap {
+    grid-template-columns: 1fr 1fr;
+  }
+}

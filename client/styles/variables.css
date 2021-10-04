@@ -1,0 +1,16 @@
+:root {
+  --color-primary: #622da5;
+  --color-secondary: #3c6bdb;
+  --color-foreground: #333;
+  --color-background: #f7f7f7;
+  --color-success: #7afa75;
+  --color-warn: #fab453;
+  --color-fail: #db4154;
+  --base-spacing: 8px;
+  --container-max-width: 1200px;
+  /*  breakpoints for reference */
+  --bp-xs: 481px;
+  --bp-sm: 769px;
+  --bp-md: 1025px;
+  --bp-lg: 12001px;
+}

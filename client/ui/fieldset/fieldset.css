@@ -1,0 +1,8 @@
+.wrap {
+  padding: var(--base-spacing) calc(var(--base-spacing) * 3);
+  border: 1px solid var(--color-secondary);
+}
+
+.legend {
+  font-size: calc(var(--base-spacing) * 2);
+}

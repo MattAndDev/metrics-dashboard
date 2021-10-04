@@ -1,0 +1,26 @@
+.wrap {
+  padding: var(--base-spacing);
+  text-transform: uppercase;
+  font-size: calc(var(--base-spacing) * 2);
+  font-weight: bold;
+  text-align: center;
+}
+
+.plain {
+  background-color: var(--color-foreground);
+  color: var(--color-background);
+}
+.success {
+  color: var(--color-background);
+  background-color: var(--color-success);
+}
+
+.warn {
+  color: var(--color-background);
+  background-color: var(--color-warn);
+}
+
+.fail {
+  color: var(--color-background);
+  background-color: var(--color-fail);
+}

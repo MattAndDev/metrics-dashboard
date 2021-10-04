@@ -1,0 +1,52 @@
+.loading {
+  width: 100%;
+  padding-top: 62.5%;
+  position: relative;
+  position: relative;
+}
+
+.loadingText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lineMetric {
+  stroke: var(--color-primary);
+  stroke-width: 0.5;
+  opacity: 1;
+}
+
+.lineMetricOpaque {
+  opacity: 0.3;
+}
+
+.info {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.rect {
+  fill: var(--color-primary);
+  opacity: 0.2;
+}
+.rectBg {
+  fill: var(--color-background);
+  opacity: 0.2;
+  display: none;
+}
+
+.infoText {
+  background-color: var(--color-background);
+  font-size: 3;
+  z-index: 100;
+}
+
+.info:hover {
+  opacity: 1;
+}
+
+.circle {
+  fill: var(--color-primary);
+}

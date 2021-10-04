@@ -1,0 +1,9 @@
+.dockerignore
+.gitignore
+/app
+.prettierignore
+*.png
+Dockerfile
+.DS_Store
+*.snap
+.husky

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "alwaysStrict": true,
+    "jsxImportSource": "preact",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "ESNext",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "rootDir": "./",
+    "baseUrl": ".",
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@server/*": ["./server/*"],
+      "@client/*": ["./client/*"],
+      "@env": ["env.ts"]
+    }
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
